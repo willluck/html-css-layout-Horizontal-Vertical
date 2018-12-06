@@ -1,0 +1,131 @@
+/* 父元素通用样式 */
+
+.containerCommon {
+  height: 100px;
+  background-color: gray;
+}
+
+/* 子元素通用样式 */
+
+.itemCommon {
+  width: 80px;
+  height: 40px;
+  background-color: black;
+  color: white;
+}
+
+.container-1 {
+  text-align: center;
+}
+
+.item-1 {
+  display: inline-block;
+}
+
+.item-2 {
+  margin: 0 auto;
+}
+
+.container-3 {
+  position: relative;
+}
+
+.item-3 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.container-4 {
+  position: relative;
+}
+
+.item-4 {
+  position: absolute;
+  left: 50%;
+  margin-left: -40px;
+}
+
+.container-5 {
+  display: flex;
+  justify-content: center;
+}
+
+.container-6 {
+  position: relative;
+}
+
+.item-6 {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.container-7 {
+  position: relative;
+}
+
+.item-7 {
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+}
+
+.container-8 {
+  line-height: 100px;
+}
+
+.container-9 {
+  display: table-cell;
+  width: 200px;
+  vertical-align: middle;
+}
+
+.container-10 {
+  display: flex;
+  align-items: center;
+}
+
+.container-11 {
+  position: relative;
+}
+
+.item-11 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-12 {
+  position: relative;
+}
+
+.item-12 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.container-13 {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 200px;
+}
+
+.item-13 {
+  display: inline-block;
+  color: white;
+  background-color: black;
+  /* margin: 0 auto; */
+}
+
+.container-14 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
